@@ -21,6 +21,8 @@ body{
     box-sizing: border-box;
 }
 
+
+
 nav{
     background-color:#94d1e5;
     padding: 0 3.125rem;
@@ -188,5 +190,9 @@ section h2::after {
     margin-bottom: 2rem;
     font-size: 1.5rem;
     font-weight: 500;
-    text-decoration: underline;
+}
+
+#projects-section .project-card a{
+    text-decoration: none;
+    color: var(--text-color);
 }
